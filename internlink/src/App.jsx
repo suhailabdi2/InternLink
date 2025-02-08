@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Route,Routes } from 'react-router-dom'
-import Home from 'C:\Users\abdis\OneDrive\Desktop\InternLink\internlink\src\pages\Home.jsx'
+import Home from './pages/Home'
 import Applications from './pages/Applications'
 import ApplyJobs from './pages/ApplyJobs'
 
