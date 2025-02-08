@@ -3,15 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Route,Routes } from 'react-router-dom'
-import Home from './pages/home'
+import Home from 'C:\Users\abdis\OneDrive\Desktop\InternLink\internlink\src\pages\Home.jsx'
+import Applications from './pages/Applications'
+import ApplyJobs from './pages/ApplyJobs'
+
 const App = () => {
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/apply-job/:id" element={<Applyjob/>}/>
-        <Route path="/" element={<Home/>}/> 
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/applications" element={<Applications/>} />
+          <Route path="/apply-jobs/id:" element={<ApplyJobs />} /> 
+        </Routes>     
     </div>
+    
   )}
 export default App
