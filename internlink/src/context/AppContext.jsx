@@ -5,8 +5,10 @@ export const AppProvider = () => {
 
     }
    return(
-    <AppContextProvider value={value}>
+    <AppContext.Provider value={value}>
         {props.children}
-      </AppContextProvider>   
+      </AppContext.Provider>   
    )
 }
+
+export default AppProvider
